@@ -19,7 +19,7 @@ public class NetClientGet {
 		conn.setRequestProperty("Accept", "application/json");
 
 		if (conn.getResponseCode() != 200) {
-			throw new RuntimeException("Failed : HTTP error code : "
+			throw new RuntimeException("Failed : HTTP Error Code : "
 					+ conn.getResponseCode());
 		}
 
